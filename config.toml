@@ -1,0 +1,108 @@
+# Site settings
+baseURL = "//www.diegomunozbeltran.com"
+languageCode = "es-ES"
+title = "Diego M. Beltrán"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Diego M. Beltrán. Web realizada con Hugo y alojada en un repositorio de GitLab"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Diego M. Beltrán"
+  description = "Web personal de Diego Muñoz Beltrán"
+  shareImage = "images/social.jpg"
+  twitterHandle = ""
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center left"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      #youtubeId = "lm69jEJbeiw"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Cosas que hago"
+
+      [[params.links.list1.link]]
+        text = "GitLab"
+        url = "https://gitlab.com/diegombeltran/"
+
+      [[params.links.list1.link]]
+        text = "Spotify"
+        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+
+      [[params.links.list1.link]]
+        text = "dmblog"
+        url = "https://blog.diegomunozbeltran.com"
+
+      [[params.links.list1.link]]
+        text = "libdiego0.2-dev"
+        url = "https://dev.diegomunozbeltran.com"
+
+
+  # Links List #2
+#  [[params.links]]
+#    [params.links.list2]
+#      heading = "Social"
+#
+#      [[params.links.list2.link]]
+#        text = "Spotify"
+#        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+#
+#      [[params.links.list2.link]]
+#        text = "Enlace2"
+#        url = "#"
+#
+#      [[params.links.list2.link]]
+#        text = "Enlace3"
+#        url = "#"
+#
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contacto"
+
+      [[params.links.list3.link]]
+        text = "CV"
+        url = "CV.pdf"
+
+      [[params.links.list3.link]]
+        text = "Email"
+        url = "email"
+
+      [[params.links.list3.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/diegomunozbeltran/"
+
+      [[params.links.list3.link]]
+        text = "Clave GPG"
+        url = "diegoPublicKey.asc"
+
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
