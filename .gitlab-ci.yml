@@ -1,4 +1,4 @@
-image: mapitman/docker-hugo:latest
+image: diegombeltran/docker-hugo:latest
 stages:
   - build
   - deploy
