@@ -1,27 +1,21 @@
+image: mapitman/docker-hugo:latest
 stages:
   - build
   - deploy
-
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 build:
-  services:
-    - docker:dind
-  image: docker:latest
   stage: build
   script:
-    - docker run -v `pwd`:/src northernv/hugo hugo
+  - hugo
   artifacts:
     paths:
-      - public/
+    - public
 
 deploy:
   stage: deploy
-  image: garland/aws-cli-docker
-  variables:
-    S3_BUCKET_NAME: "www.diegomunozbeltran.com"
-    DISTRO_ID: "E3E0DU3PKTSY3"
   script:
-  - aws configure set preview.cloudfront true
-  - aws s3 sync ./public s3://$S3_BUCKET_NAME --delete;
-  - aws cloudfront create-invalidation --distribution-id $DISTRO_ID  --paths "/*";
-  dependencies:
-  - build
+  - aws s3 sync ./public/ s3://$AWS_S3_BUCKET/ --acl public-read --delete
+  - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID  --paths "/*"
+  only:
+  - master
