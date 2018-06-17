@@ -9,7 +9,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2018 Diego M. Beltrán. Web realizada con Hugo y alojada en un repositorio de GitLab"
+copyright = "&copy;2018 Diego M. Beltrán. Web realizada con Hugo y alojada en un bucket de S3 mediante GitLab CI"
 
 [params]
 
