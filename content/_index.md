@@ -3,7 +3,7 @@ title = "Diego M. Beltrán"
 tagline = "DevOps"
 +++
 
-Teleco, metalero, tanguero, deportista, loco de los gatos, izquierdoso, ex-guitarrista de [Zyphra]({{< ref "zyphra.md" >}}) e hincha no exaltado del Madrid. No fumo.
+Loco de los gatos y ex-guitarrista de [Zyphra]({{< ref "zyphra.md" >}}). No fumo.
 
 **¿Qué me interesa?**
 
