@@ -1,16 +1,17 @@
 +++
-title = "Diego M. Beltrán"
-tagline = "DevOps"
+title = "Diego Muñoz Beltrán"
+tagline = "DevOps Engineer"
 +++
 
-Loco de los gatos y ex-guitarrista de [Zyphra]({{< ref "zyphra.md" >}}). No fumo.
+Apasionado de las nuevas tecnologías, [ex-guitarrista]({{< ref "zyphra.md" >}}) y loco de los gatos.
 
-**¿Qué me interesa?**
+**Mis áreas de conocimiento preferidas** (Sin orden concreto)
 
-* Seguridad en TI
 * Cultura _DevOps_
-* Filosofía _Open Source_
-* Redes de telecomunicación
-* Arquitecturas en la nube ([¡certificado!] (https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-09&ci=AWS00448157))
+* Automatización
+* Redes y sistemas
+* Ciberseguridad y privacidad
+* Software libre y código abierto
+* Arquitecturas en la nube ([AWS] (https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-09&ci=AWS00448157), [Azure] (https://www.youracclaim.com/badges/f775e06e-9985-41bb-8b48-6047488ed994/linked_in_profile), GCP)
 
-Actualmente trabajo en un equipo DevOps en [BBVA Next Technologies](https://www.bbvanexttechnologies.com/ "Web de BBVA Next Technologies"), en el *squad* de [BEEVA](https://www.beeva.com/ "Web de BEEVA").
+Actualmente trabajo como _Ingeniero DevOps_ en [BBVA Next Technologies](https://www.bbvanexttechnologies.com/ "Web de BBVA Next Technologies").

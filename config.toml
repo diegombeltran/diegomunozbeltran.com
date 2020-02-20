@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https:////www.diegomunozbeltran.com"
 languageCode = "es-ES"
-title = "Diego M. Beltrán"
+title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -14,7 +14,7 @@ copyright = "&copy;2019 Diego M. Beltrán. Web realizada con Hugo y alojada en u
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Diego M. Beltrán"
+  author = "Diego Muñoz Beltrán"
   description = "Web personal de Diego Muñoz Beltrán"
   shareImage = "images/social.jpg"
   twitterHandle = ""
@@ -50,6 +50,10 @@ copyright = "&copy;2019 Diego M. Beltrán. Web realizada con Hugo y alojada en u
         url = "https://gitlab.com/diegombeltran/"
 
       [[params.links.list1.link]]
+        text = "GitLab"
+        url = "https://github.com/diegombeltran/"
+
+      [[params.links.list1.link]]
         text = "Spotify"
         url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
 
@@ -63,13 +67,13 @@ copyright = "&copy;2019 Diego M. Beltrán. Web realizada con Hugo y alojada en u
 
 
   # Links List #2
-#  [[params.links]]
-#    [params.links.list2]
-#      heading = "Social"
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
 #
-#      [[params.links.list2.link]]
-#        text = "Spotify"
-#        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+      [[params.links.list2.link]]
+        text = "Spotify"
+        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
 #
 #      [[params.links.list2.link]]
 #        text = "Enlace2"
