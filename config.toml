@@ -9,7 +9,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2020 Diego M. Beltrán. Web realizada con Hugo y alojada en un bucket de S3 mediante GitLab CI"
+copyright = "&copy;2020 Diego Muñoz Beltrán. Web generada con Hugo y alojada en un bucket de S3 mediante GitLab CI"
 
 [params]
 
@@ -50,10 +50,6 @@ copyright = "&copy;2020 Diego M. Beltrán. Web realizada con Hugo y alojada en u
         url = "https://gitlab.com/diegombeltran/"
 
       [[params.links.list1.link]]
-        text = "GitLab"
-        url = "https://github.com/diegombeltran/"
-
-      [[params.links.list1.link]]
         text = "Spotify"
         url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
 
@@ -67,17 +63,17 @@ copyright = "&copy;2020 Diego M. Beltrán. Web realizada con Hugo y alojada en u
 
 
   # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Social"
-#
-      [[params.links.list2.link]]
-        text = "Spotify"
-        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+#  [[params.links]]
+#    [params.links.list2]
+#      heading = "Otros"
 #
 #      [[params.links.list2.link]]
-#        text = "Enlace2"
-#        url = "#"
+#        text = "Spotify"
+#        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+#
+#      [[params.links.list2.link]]
+#        text = "Lichess"
+#        url = "https://lichess.org/@/diegombeltran"
 #
 #      [[params.links.list2.link]]
 #        text = "Enlace3"
