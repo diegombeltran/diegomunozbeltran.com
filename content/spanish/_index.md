@@ -1,5 +1,6 @@
 +++
 title = "Diego Muñoz Beltrán"
+slug = "diego-munoz-beltran"
 tagline = "Ingeniero DevOps"
 +++
 

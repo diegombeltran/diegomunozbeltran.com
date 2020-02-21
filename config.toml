@@ -1,21 +1,104 @@
 # Site settings
 baseURL = "https:////www.diegomunozbeltran.com"
-languageCode = "es-ES"
+languageCode = "en"
 title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
-# Copyright
-copyright = "&copy;2020 Diego Muñoz Beltrán. Web generada con Hugo y alojada en un bucket de S3 mediante GitLab CI"
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    contentDir = "content/english"
+    title = "Diego Muñoz Beltrán"
+    description = "Diego Muñoz Beltrán's personal website"
+    copyright = "&copy;2020 Diego Muñoz Beltrán. Website made with Hugo and hosted in a S3 bucket using GitLab CI"
+
+    [[languages.en.params.links]]
+      [languages.en.params.links.list1]
+        heading = "Things I do"
+
+        [[languages.en.params.links.list1.link]]
+          text = "GitLab"
+          url = "https://gitlab.com/diegombeltran/"
+        [[languages.en.params.links.list1.link]]
+          text = "Spotify"
+          url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+        [[languages.en.params.links.list1.link]]
+          text = "dmblog"
+          url = "https://blog.diegomunozbeltran.com"
+        [[languages.en.params.links.list1.link]]
+          text = "libdiego0.2-dev"
+          url = "https://dev.diegomunozbeltran.com"
+
+      [languages.en.params.links.list3]
+        heading = "Contact"
+
+        [[languages.en.params.links.list3.link]]
+          text = "CV"
+          url = "CV.pdf"
+        [[languages.en.params.links.list3.link]]
+          text = "Email"
+          url = "email"
+        [[languages.en.params.links.list3.link]]
+          text = "LinkedIn"
+          url = "https://www.linkedin.com/in/diegomunozbeltran/"
+        [[languages.en.params.links.list3.link]]
+          text = "GPG Key"
+          url = "diegoPublicKey.asc"
+
+  [languages.es]
+    weight = 2
+    languageName = "Spanish"
+    contentDir = "content/spanish"
+    title = "Diego Muñoz Beltrán"
+    description = "Web personal de Diego Muñoz Beltrán"
+    copyright = "&copy;2020 Diego Muñoz Beltrán. Web generada con Hugo y alojada en un bucket de S3 mediante GitLab CI"
+
+    [[languages.es.params.links]]
+      [languages.es.params.links.list1]
+        heading = "Cosas que hago"
+
+        [[languages.es.params.links.list1.link]]
+          text = "GitLab"
+          url = "https://gitlab.com/diegombeltran/"
+        [[languages.es.params.links.list1.link]]
+          text = "Spotify"
+          url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+        [[languages.es.params.links.list1.link]]
+          text = "dmblog"
+          url = "https://blog.diegomunozbeltran.com"
+        [[languages.es.params.links.list1.link]]
+          text = "libdiego0.2-dev"
+          url = "https://dev.diegomunozbeltran.com"
+
+      [languages.es.params.links.list3]
+        heading = "Contacto"
+
+        [[languages.es.params.links.list3.link]]
+          text = "CV"
+          url = "CV.pdf"
+        [[languages.es.params.links.list3.link]]
+          text = "Email"
+          url = "email"
+        [[languages.es.params.links.list3.link]]
+          text = "LinkedIn"
+          url = "https://www.linkedin.com/in/diegomunozbeltran/"
+        [[languages.es.params.links.list3.link]]
+          text = "Clave GPG"
+          url = "diegoPublicKey.asc"
+
 
 [params]
 
   # Metadata for search engines and social sharing
   author = "Diego Muñoz Beltrán"
-  description = "Web personal de Diego Muñoz Beltrán"
   shareImage = "images/social.jpg"
   twitterHandle = ""
 
@@ -38,30 +121,6 @@ copyright = "&copy;2020 Diego Muñoz Beltrán. Web generada con Hugo y alojada e
       file = "videos/background.mp4"
       #youtubeId = "lm69jEJbeiw"
 
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Cosas que hago"
-
-      [[params.links.list1.link]]
-        text = "GitLab"
-        url = "https://gitlab.com/diegombeltran/"
-
-      [[params.links.list1.link]]
-        text = "Spotify"
-        url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
-
-      [[params.links.list1.link]]
-        text = "dmblog"
-        url = "https://blog.diegomunozbeltran.com"
-
-      [[params.links.list1.link]]
-        text = "libdiego0.2-dev"
-        url = "https://dev.diegomunozbeltran.com"
-
-
   # Links List #2
 #  [[params.links]]
 #    [params.links.list2]
@@ -79,27 +138,6 @@ copyright = "&copy;2020 Diego Muñoz Beltrán. Web generada con Hugo y alojada e
 #        text = "Enlace3"
 #        url = "#"
 #
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Contacto"
-
-      [[params.links.list3.link]]
-        text = "CV"
-        url = "CV.pdf"
-
-      [[params.links.list3.link]]
-        text = "Email"
-        url = "email"
-
-      [[params.links.list3.link]]
-        text = "LinkedIn"
-        url = "https://www.linkedin.com/in/diegomunozbeltran/"
-
-      [[params.links.list3.link]]
-        text = "Clave GPG"
-        url = "diegoPublicKey.asc"
-
 
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
