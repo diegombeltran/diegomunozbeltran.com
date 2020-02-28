@@ -3,7 +3,7 @@ title = "Diego Muñoz Beltrán"
 tagline = "DevOps Engineer"
 +++
 
-Blogger in love with new technologies, [former guitarist]({{< ref "zyphra.md" >}}) and cat lover.
+Blogger who is in love with new technologies, [former guitarist]({{< ref "zyphra.md" >}}) and cat fanatic.
 
 **My favourite topics** _(No specific order)_
 
