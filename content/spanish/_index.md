@@ -4,8 +4,7 @@ slug = "diego-munoz-beltran"
 tagline = "Ingeniero DevOps"
 +++
 
-Bloguero apasionado de las nuevas tecnologías, [ex-guitarrista]({{< ref "zyphra.md" >}}) y loco de los gatos.
-
+Bloguero apasionado de las nuevas tecnologías, [ex-guitarrista]({{< ref "zyphra.md" lang="es" >}}) y loco de los gatos.
 **Mis temas preferidos** _(Sin orden concreto)_
 
 * Automatización

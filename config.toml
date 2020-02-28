@@ -42,7 +42,7 @@ googleAnalytics = ""
 
         [[languages.en.params.links.list3.link]]
           text = "CV"
-          url = "CV.pdf"
+          url = "https://www.diegomunozbeltran.com/CV.pdf"
         [[languages.en.params.links.list3.link]]
           text = "Email"
           url = "email"
@@ -51,7 +51,7 @@ googleAnalytics = ""
           url = "https://www.linkedin.com/in/diegomunozbeltran/"
         [[languages.en.params.links.list3.link]]
           text = "GPG Key"
-          url = "diegoPublicKey.asc"
+          url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
 
   [languages.es]
     weight = 2
@@ -83,7 +83,7 @@ googleAnalytics = ""
 
         [[languages.es.params.links.list3.link]]
           text = "CV"
-          url = "CV.pdf"
+          url = "https://www.diegomunozbeltran.com/CV.pdf"
         [[languages.es.params.links.list3.link]]
           text = "Email"
           url = "email"
@@ -92,7 +92,7 @@ googleAnalytics = ""
           url = "https://www.linkedin.com/in/diegomunozbeltran/"
         [[languages.es.params.links.list3.link]]
           text = "Clave GPG"
-          url = "diegoPublicKey.asc"
+          url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
 
 
 [params]
