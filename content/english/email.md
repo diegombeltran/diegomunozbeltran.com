@@ -2,10 +2,10 @@
 title = "Email"
 +++
 
-Normalmente me comunico vía email mediante la dirección:
+I usually get in touch by email with the following address:
 
-_yo **arroba** diegomunozbeltran **punto** com_
+_yo **at** diegomunozbeltran **dot** com_
 
-Doy **prioridad** (y normalmente contesto antes) a correos **cifrados**. Mi clave pública está [**aquí**](https://diegomunozbeltran.com/diegoPublicKey.asc).
+I give **priority** (and habitually answer faster) to **encrypted** emails. My public key is [**here**](https://diegomunozbeltran.com/diegoPublicKey.asc).
 
-Puedes encontrar un completo y útil espacio creado por la [**FSF**](https://www.fsf.org), donde se explica **cómo** funciona el cifrado asimétrico, así como **por qué** es importante y necesario, [**en este enlace**](https://emailselfdefense.fsf.org/es/).
+You can find a complete and usefull website made by the [**FSF**](https://www.fsf.org), where they explain **how** asymmetric encryption works and **why** it's important, [**in this link**](https://emailselfdefense.fsf.org/en/).
