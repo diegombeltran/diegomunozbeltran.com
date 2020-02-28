@@ -15,6 +15,7 @@ build:
 deploy:
   stage: deploy
   script:
+  - chmod +x /usr/bin/aws
   - aws s3 sync ./public/ s3://$AWS_S3_BUCKET/ --acl public-read --delete
   - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID  --paths "/*"
   only:
