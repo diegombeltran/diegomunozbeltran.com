@@ -1,10 +1,10 @@
 # Site settings
 baseURL = "https:////www.diegomunozbeltran.com"
-languageCode = "en"
+languageCode = "es"
 title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
 
 # Enter your tracking code to enable Google Analytics

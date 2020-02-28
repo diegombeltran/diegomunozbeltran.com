@@ -1,5 +1,6 @@
 +++
 title = "Email"
+slug = "email"
 +++
 
 I usually get in touch by email with the following address:

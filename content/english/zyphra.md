@@ -1,5 +1,6 @@
 +++
 title = "Zyphra"
+slug = "zyphra"
 +++
 
 **Zyphra** is a _heavy rock_ band founded by **David Aldana** in 2005. During the time between 2010 and 2015, I was able to be part of that big **family**, had an album published, played a lot of live performances and shared a big amount of unforgettable moments with my partners.

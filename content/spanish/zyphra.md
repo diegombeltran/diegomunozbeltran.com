@@ -1,5 +1,6 @@
 +++
 title = "Zyphra"
+slug = "zyphra"
 +++
 
 **Zyphra** es una banda de _heavy rock_ formada por **David Aldana** en 2005. Durante el periodo comprendido entre 2010 y 2015, pude ser parte de esa gran **familia**, con un álbum publicado, un montón de conciertos y buenos momentos compartidos con mis compañeros.

@@ -1,5 +1,6 @@
 +++
 title = "Email"
+slug = "email"
 +++
 
 Normalmente me comunico vía email mediante la dirección:

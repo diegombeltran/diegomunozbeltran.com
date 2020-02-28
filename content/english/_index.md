@@ -12,6 +12,6 @@ Blogger in love with new technologies, [former guitarist]({{< ref "zyphra.md" >}
 * Cybersecurity and privacy
 * Infrastructure and networks
 * Free Software and Open Source
-* Cloud architectures _([AWS](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-09&ci=AWS00448157), [Azure](https://www.youracclaim.com/badges/f775e06e-9985-41bb-8b48-6047488ed994/linked_in_profile), GCP)_
+* Cloud architectures ([AWS](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-09&ci=AWS00448157), [Azure](https://www.youracclaim.com/badges/f775e06e-9985-41bb-8b48-6047488ed994/linked_in_profile), GCP)
 
-Currently at [**BBVA Next Technologies**](https://www.bbvanexttechnologies.com/ "Web de BBVA Next Technologies").
+Currently at [**BBVA Next Technologies**](https://www.bbvanexttechnologies.com/ "BBVA Next Technologies").
