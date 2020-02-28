@@ -1,10 +1,10 @@
 # Site settings
 baseURL = "https:////www.diegomunozbeltran.com"
-languageCode = "es"
+languageCode = "en"
 title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-DefaultContentLanguage = "es"
+DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 # Enter your tracking code to enable Google Analytics
@@ -37,22 +37,36 @@ googleAnalytics = ""
           text = "libdiego0.2-dev"
           url = "https://dev.diegomunozbeltran.com"
 
-      [languages.en.params.links.list3]
+      [languages.en.params.links.list2]
         heading = "Contact"
 
-        [[languages.en.params.links.list3.link]]
+        [[languages.en.params.links.list2.link]]
           text = "CV"
           url = "https://www.diegomunozbeltran.com/CV.pdf"
-        [[languages.en.params.links.list3.link]]
+        [[languages.en.params.links.list2.link]]
           text = "Email"
           url = "email"
-        [[languages.en.params.links.list3.link]]
+        [[languages.en.params.links.list2.link]]
           text = "LinkedIn"
           url = "https://www.linkedin.com/in/diegomunozbeltran/"
-        [[languages.en.params.links.list3.link]]
+        [[languages.en.params.links.list2.link]]
           text = "GPG Key"
           url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
 
+      [languages.en.params.links.list3]
+        heading = "Language"
+
+        [[languages.en.params.links.list3.link]]
+          text = "English"
+          url = "/en/"
+        [[languages.en.params.links.list3.link]]
+          text = "Español"
+          url = "/es/"
+        [[languages.en.params.links.list3.link]]
+          text = "Deutsch"
+          url = "#"
+
+# ESPAÑOL
   [languages.es]
     weight = 2
     languageName = "Spanish"
@@ -78,22 +92,34 @@ googleAnalytics = ""
           text = "libdiego0.2-dev"
           url = "https://dev.diegomunozbeltran.com"
 
-      [languages.es.params.links.list3]
+      [languages.es.params.links.list2]
         heading = "Contacto"
 
-        [[languages.es.params.links.list3.link]]
+        [[languages.es.params.links.list2.link]]
           text = "CV"
           url = "https://www.diegomunozbeltran.com/CV.pdf"
-        [[languages.es.params.links.list3.link]]
+        [[languages.es.params.links.list2.link]]
           text = "Email"
           url = "email"
-        [[languages.es.params.links.list3.link]]
+        [[languages.es.params.links.list2.link]]
           text = "LinkedIn"
           url = "https://www.linkedin.com/in/diegomunozbeltran/"
-        [[languages.es.params.links.list3.link]]
+        [[languages.es.params.links.list2.link]]
           text = "Clave GPG"
           url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
 
+      [languages.es.params.links.list3]
+        heading = "Idioma"
+
+        [[languages.es.params.links.list3.link]]
+          text = "English"
+          url = "/en/"
+        [[languages.es.params.links.list3.link]]
+          text = "Español"
+          url = "/es/"
+        [[languages.es.params.links.list3.link]]
+          text = "Deutsch"
+          url = "#"
 
 [params]
 
