@@ -41,7 +41,7 @@ googleAnalytics = ""
         heading = "Contact"
 
         [[languages.en.params.links.list2.link]]
-          text = "CV/Resume"
+          text = "CV"
           url = "https://www.diegomunozbeltran.com/CV_en.pdf"
         [[languages.en.params.links.list2.link]]
           text = "Email"
