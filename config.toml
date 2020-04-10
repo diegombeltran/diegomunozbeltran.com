@@ -41,8 +41,8 @@ googleAnalytics = ""
         heading = "Contact"
 
         [[languages.en.params.links.list2.link]]
-          text = "CV"
-          url = "https://www.diegomunozbeltran.com/CV.pdf"
+          text = "CV/Resume"
+          url = "https://www.diegomunozbeltran.com/CV_en.pdf"
         [[languages.en.params.links.list2.link]]
           text = "Email"
           url = "email"
@@ -97,7 +97,7 @@ googleAnalytics = ""
 
         [[languages.es.params.links.list2.link]]
           text = "CV"
-          url = "https://www.diegomunozbeltran.com/CV.pdf"
+          url = "https://www.diegomunozbeltran.com/CV_es.pdf"
         [[languages.es.params.links.list2.link]]
           text = "Email"
           url = "email"
