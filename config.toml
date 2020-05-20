@@ -3,13 +3,11 @@ baseURL = "https:////www.diegomunozbeltran.com"
 languageCode = "en"
 title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS"]
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
-# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-
+enableRobotsTXT = true
 
 [languages]
   [languages.en]
