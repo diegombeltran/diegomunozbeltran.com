@@ -7,7 +7,9 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS"]
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 googleAnalytics = ""
-enableRobotsTXT = true
+
+# Evitar generar el robots.txt por defecto de Hugo. El mío estará en static de forma manual
+enableRobotsTXT = false
 
 [languages]
   [languages.en]

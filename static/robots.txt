@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /CV_en.pdf
+Disallow: /CV_es.pdf
+Disallow: /diegoPublicKey.asc
