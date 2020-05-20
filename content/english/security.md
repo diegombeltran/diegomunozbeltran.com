@@ -53,7 +53,7 @@ While researching, please do not attempt the following:
 
 # Rewards
 
-* Thank you shown [here](https://www.diegomunozbeltran.com/en/thanks)
+* Thank you shown [here](https://www.diegomunozbeltran.com/en/acknowledgements)
 
 Please note that this program does not provide monetary rewards for bug submissions.
 

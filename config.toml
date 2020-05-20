@@ -18,18 +18,21 @@ googleAnalytics = ""
     contentDir = "content/english"
     title = "Diego Muñoz Beltrán"
     description = "Diego Muñoz Beltrán's personal website"
-    copyright = "&copy;2020 Diego Muñoz Beltrán. Website made with Hugo and hosted in a S3 bucket using GitLab CI"
+    copyright = "&copy;2020 Diego Muñoz Beltrán. Website made with Hugo and hosted in a S3 bucket using GitLab CI."
 
     [[languages.en.params.links]]
       [languages.en.params.links.list1]
         heading = "Things I do"
 
         [[languages.en.params.links.list1.link]]
-          text = "GitLab"
+          text = "Git"
           url = "https://gitlab.com/diegombeltran/"
         [[languages.en.params.links.list1.link]]
           text = "Spotify"
           url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+        [[languages.en.params.links.list1.link]]
+          text = "Lichess"
+          url = "https://lichess.org/@/diegombeltran"
         [[languages.en.params.links.list1.link]]
           text = "dmblog"
           url = "https://blog.diegomunozbeltran.com"
@@ -52,6 +55,9 @@ googleAnalytics = ""
         [[languages.en.params.links.list2.link]]
           text = "GPG Key"
           url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
+        [[languages.en.params.links.list2.link]]
+          text = "security.txt"
+          url = "https://www.diegomunozbeltran.com/en/security"
 
       [languages.en.params.links.list3]
         heading = "Language"
@@ -80,11 +86,14 @@ googleAnalytics = ""
         heading = "Cosas que hago"
 
         [[languages.es.params.links.list1.link]]
-          text = "GitLab"
+          text = "Git"
           url = "https://gitlab.com/diegombeltran/"
         [[languages.es.params.links.list1.link]]
           text = "Spotify"
           url = "https://open.spotify.com/artist/7zyGU6iKtcRrk5IZU8S10x"
+        [[languages.es.params.links.list1.link]]
+          text = "Lichess"
+          url = "https://lichess.org/@/diegombeltran"
         [[languages.es.params.links.list1.link]]
           text = "dmblog"
           url = "https://blog.diegomunozbeltran.com"
@@ -107,6 +116,9 @@ googleAnalytics = ""
         [[languages.es.params.links.list2.link]]
           text = "Clave GPG"
           url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"
+        [[languages.es.params.links.list2.link]]
+          text = "security.txt"
+          url = "https://www.diegomunozbeltran.com/es/seguridad"
 
       [languages.es.params.links.list3]
         heading = "Idioma"
@@ -145,7 +157,7 @@ googleAnalytics = ""
       enable = false
       mute = true
       file = "videos/background.mp4"
-      #youtubeId = "lm69jEJbeiw"
+      #youtubeId = "KxOhc-dfEDY"
 
   # Links List #2
 #  [[params.links]]
