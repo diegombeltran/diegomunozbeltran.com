@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# English
+Contact: https://www.diegomunozbeltran.com/en/email
+Policy: https://www.diegomunozbeltran.com/en/security
+Acknowledgments: https://www.diegomunozbeltran.com/en/acknowledgments
+
+# Spanish
+Contact: https://www.diegomunozbeltran.com/es/email
+Policy: https://www.diegomunozbeltran.com/es/seguridad
+Acknowledgments: https://www.diegomunozbeltran.com/es/agradecimientos
+
+Preferred-Languages: en, es
+Encryption: https://www.diegomunozbeltran.com/diegoPublicKey.asc
+Canonical: https://www.diegomunozbeltran.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE6/XXmd+xeDMgSosaRUGB7OJ72yAFAl7FA+QACgkQRUGB7OJ7
+2yDQpRAAqGAkTcdSBSpm1FUfHez0aPy0n9YkfVF1x+s7Cd9ipJoCTf1gdTOAHJHY
+Q2xhw4p2PbuscTvvtRFuIPCWBe1uMNtCyvNHxahi6tDXBiFq8t/58QE6IP9nsEsJ
+QaPFN9zL+imDpOQjNWZ9VvRRa6/rU/aCHSm95lfIYCPVonCa0H8RL4y4L7d/uV4Q
+o4JDbx0e+tasGdX9c8fKywNmXTNT0Zczcl8CtODVi2LzDYn6kBTi8EYtZWtE1LGi
+NZTeH2tjMye5zh6ddtju9rf68VUO9ta9fV8Pc3zBbFrzjWAjSMzG9O/F8gZQnyOy
+PuY3N0pqhbfIdmhalByd5ApKhYfRKL3rqBJATDD/i5/jbh4nuGyMZiN3j/Ivf+2I
+SkmCKL/u51iscsJ4B5Tg+AtPiyn0XLEpwxDfhe5wsEQw05Wj79s3EJxf2C0SGPAx
+pKcD/HShQwepUaVEpKrxxg66XTuzq5IrEJNKc0g2SnqElRRTWtTdVADqO0NPslic
+A/oJkQYdOJBA5Px276ypShJ+Oifymy/xoKS1JlfjC8tpVoOD9gD2VRTCZX9PvOjL
+onqhADfqtjHYlgkwndVf4Xk6s3LpXRNvmLApWRxq66VIvazPTQOLjkbZB+a1JtL0
+Dya02UoBQP+cYxCw+PXXiQTrGyb8Vb5rWPGgOFc0C2KV7Y6OuHI=
+=plRb
+-----END PGP SIGNATURE-----
+
