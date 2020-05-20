@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https:////www.diegomunozbeltran.com"
+baseURL = "https://www.diegomunozbeltran.com"
 languageCode = "en"
 title = "Diego Muñoz Beltrán"
 theme = "hugo-split-theme"
