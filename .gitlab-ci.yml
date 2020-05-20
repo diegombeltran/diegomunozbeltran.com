@@ -16,6 +16,7 @@ deploy:
   stage: deploy
   script:
   - aws s3 sync ./public/ s3://$AWS_S3_BUCKET/ --acl public-read --delete
+  - aws s3 cp ./public/security.txt s3://$AWS_S3_BUCKET/security.txt --metadata '{"Website-Redirect-Location":"/.well-known/security.txt"}'
   - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID  --paths "/*"
   only:
   - master
