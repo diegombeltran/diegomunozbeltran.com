@@ -3,6 +3,8 @@ title = "Security Policy"
 slug = "security"
 +++
 
+hola lidia,qué tal?
+
 Please note that this program does not offer rewards for bug submissions as **diegomunozbeltran.com** is just a small personal website.
 
 This disclosure program is limited to assets in the scope found at the bottom of this page.
