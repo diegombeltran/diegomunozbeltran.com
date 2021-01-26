@@ -34,11 +34,11 @@ enableRobotsTXT = false
           text = "Lichess"
           url = "https://lichess.org/@/diegombeltran"
         [[languages.en.params.links.list1.link]]
+          text = "libdiego0.2-dev (Blog)"
+          url = "https://dev.diegomunozbeltran.com"
+        [[languages.en.params.links.list1.link]]
           text = "dmblog"
           url = "https://blog.diegomunozbeltran.com"
-        [[languages.en.params.links.list1.link]]
-          text = "libdiego0.2-dev"
-          url = "https://dev.diegomunozbeltran.com"
 
       [languages.en.params.links.list2]
         heading = "Contact"
@@ -95,11 +95,11 @@ enableRobotsTXT = false
           text = "Lichess"
           url = "https://lichess.org/@/diegombeltran"
         [[languages.es.params.links.list1.link]]
+          text = "libdiego0.2-dev (Blog)"
+          url = "https://dev.diegomunozbeltran.com"
+        [[languages.es.params.links.list1.link]]
           text = "dmblog"
           url = "https://blog.diegomunozbeltran.com"
-        [[languages.es.params.links.list1.link]]
-          text = "libdiego0.2-dev"
-          url = "https://dev.diegomunozbeltran.com"
 
       [languages.es.params.links.list2]
         heading = "Contacto"
